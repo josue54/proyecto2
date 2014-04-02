@@ -38,10 +38,8 @@
 |
 */
 
-$route['default_controller'] = "student";
-$route['mostrar-estudiante'] = "student/show";
-$route['404_override'] = 'welcome/error';
-
+$route['default_controller'] = "blog";
+$route['404_override'] = '';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
