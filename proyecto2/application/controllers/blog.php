@@ -15,7 +15,7 @@ class Blog extends CI_Controller {
         public function insert_entry(){
                 $entry = array(
                         'permalink' => permalink($this->input->post('title')),
-                        'author' => 'anon',
+                        'author' => 'josue',
                         'title' => $this->input->post('title'),
                         'content' => $this->input->post('content'),
                         'date' => date('Y-m-d H:i:s'),
